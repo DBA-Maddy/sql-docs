@@ -32,8 +32,7 @@ manager: craigg
 |Type|Name|Resolution|  
 |----------|----------|----------------|  
 |Option|AUTO_CLOSE|The database option AUTO_CLOSE=ON is not supported with databases that have a MEMORY_OPTIMIZED_DATA filegroup.|  
-|Option|ATTACH_REBUILD_LOG|The CREATE database option ATTACH_REBUILD_LOG is not supported with databases that have a MEMORY_OPTIMIZED_DATA filegroup.|  
-|Feature|DATABASE SNAPSHOT|Creating database snapshots is not supported with databases that have a MEMORY_OPTIMIZED_DATA filegroup.|  
+|Option|ATTACH_REBUILD_LOG|The CREATE database option ATTACH_REBUILD_LOG is not supported with databases that have a MEMORY_OPTIMIZED_DATA filegroup.|   
 |Feature|Replication using the sync_method 'database snapshot' or 'database snapshot character'|Replication using the sync_method 'database snapshot' or 'database snapshot character' is not supported with databases that have a MEMORY_OPTIMIZED_DATA filegroup.|  
 |Feature|DBCC CHECKDB<br /><br /> DBCC CHECKTABLE|DBCC CHECKDB skips the memory-optimized tables in the database.<br /><br /> DBCC CHECKTABLE will fail for memory-optimized tables.|  
   
